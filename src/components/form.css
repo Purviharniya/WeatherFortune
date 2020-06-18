@@ -1,0 +1,36 @@
+.formcontrol{
+    width:40vw;
+    background:transparent;
+    height:50px;
+    border-radius: 0 16px 0 16px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 1.3rem;
+    font-family: castellar;
+    border:none;
+    color:white;
+    text-align: center;
+}
+
+
+.conatainer{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.formcontrol::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+.formcontrol:focus{
+    color:white;
+}
+
+  @media only screen and (max-width: 600px) {
+    .formcontrol{
+        width:70vw;
+    }
+  }
